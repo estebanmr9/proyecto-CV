@@ -1,0 +1,71 @@
+/**estilo para pagina de Curriculum**/
+
+body {background-color: rgb(30, 30, 30); color: rgb(255, 255, 255); margin: 100px;}
+
+.Modo-luz {background-color:  rgb(255, 255, 255); color: rgb(0, 0, 0);}
+
+*{font-family: 'Rubik', sans-serif;
+    text-align: center;}
+ 
+h1{font-weight: bold;
+   font-size: 40px;
+   border: solid #810acd 5px; 
+   border-radius:2em;
+   padding: 20px; 
+   margin: 30px;}
+
+h2{font-weight: bold;}
+
+h3{font-size: 40px; margin: 100px; margin-top: 600px;}    
+
+ul {list-style-position: inside;}
+li {margin-top: 10px;}
+
+/**Botones de navegación**/
+
+#Botones_navegacion{
+      display: flex;
+      justify-content: center; 
+      align-items: center;}
+    
+.cuadrado {
+    border-radius:2em;
+    width: 150px;          
+    height: 120px;          
+    padding-top: 30px;
+    margin: 30px;
+    background: rgb(255, 255, 255);       
+    border: 3px solid #000;}
+
+#cuadrado_personal{box-shadow: 0px 15px 15px -7px #ffeb3b, 5px 5px 15px 5px #f44336;}
+#cuadrado_experiencia{box-shadow: 0px 15px 15px -7px #ffeb3b, 5px 5px 15px 5px #03a9f4;}
+#cuadrado_estudios{box-shadow: 0px 15px 15px -7px #ffeb3b, 5px 5px 15px 5px #810acd;}
+#cuadrado_contacto{box-shadow: 0px 15px 15px -7px #ffeb3b, 5px 5px 15px 5px #8bc34a;}
+
+#personal{color: #f44336;}
+#experiencia{color: #03a9f4;}
+#estudios{color: #810acd;}
+#contacto{color: #8bc34a;}
+
+
+
+/**Boton para volver arriba*/
+
+#subir {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    z-index: 99;
+    font-size: 38px;
+    border: none;
+    outline: none;
+    background-color: #810acd;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 2em;
+  }
+  
+  #subir:hover {
+    background-color: #000000;
+  }

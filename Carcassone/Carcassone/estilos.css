@@ -1,0 +1,22 @@
+body {background-color: rgb(49, 49, 49);
+      margin: 50px;}
+
+*{color: rgb(255, 255, 255); 
+  font-family: 'Nunito', sans-serif;
+text-align: center;}
+
+
+h1{font-weight: bold;
+    font-size: 40px;
+    border: solid rgb(255, 255, 255) 5px; 
+    padding: 20px; 
+    margin: 30px;}
+
+h2{padding: 20px; margin: 30px;}
+
+p{padding: 20px; margin: 30px;}
+
+
+
+
+

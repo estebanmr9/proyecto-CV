@@ -1,0 +1,158 @@
+<!-- Pagina web para proyecto curriculum-->
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum JMA</title>
+    <link rel="icon" href="CV imagenes/CV icon white.png">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="javascript.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!-- Boton de cambio de tema oscuro-->
+
+<p>Oprima para cambiar modo de lectura:
+<button onclick="cambiarmodo()">Modo Oscuro/claro</button>
+</p>
+
+<section>
+ <h1>JAVIER MORENO ÁLVAREZ</h1>
+
+ <H2>Curriculum Vitae</H2>
+
+ <img src="CV imagenes/7.png" alt="La imagen de perfil no cargo correctamente, intente con otro navegador." height="300px" width="300px";>
+
+<p>Bienvenidos a mi pagina web, un proyecto para el curso de Front end Academy - 2023.</p>
+</section>
+
+<!-- Botones navegacion-->
+
+   <section id="Botones_navegacion"> 
+      <div class="cuadrado"; id="cuadrado_personal">
+         <img src="CV imagenes/9453847.png" width="40px" height="40px">
+         <h4><a href="#personal"; style="color: rgb(196, 0, 0);"> Personal</a></h4>
+      </div>
+
+      <div class="cuadrado"; id="cuadrado_experiencia">
+        <img src="CV imagenes/149399.png" width="40px" height="40px">
+        <h4><a href="#experiencia"; style="color: rgb(0, 131, 192);"> Experiencia</a></h4>
+      </div>
+
+      <div class="cuadrado"; id="cuadrado_estudios">
+        <img src="CV imagenes/149350.png" width="40px" height="40px">
+        <h4><a href="#estudios"; style="color: #810acd;"> Estudios</a></h4>
+      </div>
+
+      <div class="cuadrado"; id="cuadrado_contacto">
+        <img src="CV imagenes/1250663.png" width="40px" height="40px">
+        <h4><a href="#contacto"; style="color: rgb(9, 107, 0);"> Contacto</a></h4>
+      </div>
+   </section>
+
+
+<!-- Boton para volver arriba-->
+
+<button onclick="subir()" id="subir">Subir</button>
+
+
+<!-- Aca comienza mi informacion PERSONAL-->
+
+<section>
+   <h3 id="personal">Información Personal</h3>
+   <p>Ilustrador cualificado apasionado por la planificación de "storyboards" y el dibujo de estilo realista.<br> Interesado en un puesto laboral que promueva la creación artística.</p>
+
+   <ul>
+       <li>Soltero</li> 
+       <li>Argentino</li> 
+       <li>21-5-1991</li> 
+       <li>Registro de conducir: Categoria B.</li> 
+       <li>Idiomas: Español, Italiano e Inglés.</li> 
+   </ul>      
+     
+
+<!-- Calculadora de edad JAVA-->
+  <h4 style="margin-top: 50px; margin-bottom: 8px;">Calcular mi edad con javascript:</h4>
+  <form>
+  <label>Ingrese el año corriente:</label>
+  <input type="number" id="numero1">
+  <button type="button" onclick="sumarfechas()">Calcular</button>
+  </form>
+
+<p>Mi edad es:</p>
+<p id="resultado"></p>
+
+<hr>
+       <cite>
+      "Entusiasta y proactivo. Busco superar las expectativas para prosperar en todo ámbito. Me dedico a trabajar en equipo para lograr superar los obstáculos que se presenten y alcanzar nuevas y más grandes metas laborales y de la vida personal."
+       </cite>
+      <hr>
+</section>
+
+<!-- Aca comienza mi informacion de EXPERIENCIA LABORAL-->
+
+<section>
+   <h3 id="experiencia">Experiencia laboral</h3>
+       
+      <h4>Dibujante de historietas gráficas, 11/2017 - Actualidad</h4>
+      <ul><li> Adoptó ideas y desarrolló creaciones de gran calidad, que incluían caracteres, entornos y otros objetos.</li>
+         <li> Aplicó teoría del color y técnicas de iluminación a dibujos e ilustraciones para añadir intensidad a las creaciones.</li>
+         <li> Determinó qué diseños serían los apropiados en pantalla, impresión, anuncios, etc.</li>
+      </ul>
+
+      <h4>Ilustrador, 02/2014 - 11/2017</h4>
+      <ul><li> Experiencia con 2D y storyboards.</li>
+          <li> Reunió información de diversos canales de contenidos y utilizó los datos para crear imágenes, gráficos e ilustraciones que respaldaran los objetivos de la empresa.</li>
+          <li> Alto nivel de creatividad e innovación gráfica. </li>
+      </ul>
+
+      <h4>Ilustrador, 10/2011 - 01/2014</h4>
+      <ul><li> Con habilidades demostrables para desarrollar relaciones clave con los clientes y proporcionar soluciones de diseño.</li>
+          <li> Dominio del paquete Adobe (Photoshop, Illustrator, InDesign).</li>
+          <li> Desarrolló diseños de ilustraciones siguiendo las especificaciones del cliente, las normas corporativas y fórmulas matemáticas.</li>
+      </ul>
+</section>
+
+<!-- Aca comienza mi informacion de ESTUDIOS-->
+       
+<section>
+   <h3 id="estudios">Estudios, Cursos Realizados y Habilidades</h3>
+      <ul> <li>2009 - Liceo scientifico bilingüe.</li> <b>Scuola biculturale Ugo Foscolo</b> 
+         <li> 2022 Excel intermedio.</li> <b>UTN</b> 
+         <li> 2021 Modernización de redes sociales y atención al cliente.</li><b>UTN</b>
+         <li> 2016 Instalaciones eléctricas.</li>  <b>UTN</b>
+         <li> 2010 Diseñador web y multimedia.</li><b>Centro de Formación Profesional Morón</b> 
+         <li> 2009 Diseño gráfico de sistemas informáticos.</li>  <b>Centro de Formación Profesional Morón</b>
+         <li> Paquete de Microsoft Office:</li> <b>(Excel, Word, PowerPoint, Outlook, etc.)</b> 
+         <li> Herramientas de edición de Adobe:</li> <b>(Photoshop, Illustrator, InDesign, After Effects, Premiere Pro)</b> 
+      </ul>
+</section>
+
+
+<!-- Aca comienza mi informacion de CONTACTO-->
+
+<section>
+   <h3 id="contacto">Información de Contacto</h3>
+    <ul>
+       <li> Teléfono: 690943094 </li>
+       <li> Correo electrónico: javi.moreno.alvarez@gmail.com </li>
+       <li> www.javimorenoillustrations.com (en construcción)</li>
+    </ul>
+   <a href="https://www.linkedin.com/" target="_blank">Visite mi Linkedin para más información.</a>
+
+</section>
+
+
+
+</body>
+
+<footer style="margin: 500px;"></footer>
+
+</html>
