@@ -1,5 +1,5 @@
 /**Java Scrip para pagina de CV 
-Alumno Esteben Martin Rivero*/
+Alumno Esteban Martin Rivero*/
 
 
 /**Cambiar modo de lectura*/
@@ -34,4 +34,4 @@ function suma(a,b){return a+b}
 
 
 
-/**Alumno Esteben Martin Rivero*/
+/**Alumno Esteban Martin Rivero*/
